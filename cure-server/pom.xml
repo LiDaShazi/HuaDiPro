@@ -12,13 +12,13 @@
     <dependencies>
 
         <dependency>
-            <groupId>com.sky</groupId>
+            <groupId>com.cure</groupId>
             <artifactId>cure-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
         <dependency>
-            <groupId>com.sky</groupId>
+            <groupId>com.cure</groupId>
             <artifactId>cure-pojo</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
@@ -114,6 +114,18 @@
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.cure</groupId>
+            <artifactId>cure-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.cure</groupId>
+            <artifactId>cure-pojo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
